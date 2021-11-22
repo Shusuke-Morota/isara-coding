@@ -1,0 +1,104 @@
+/*===================
+        base
+===================*/
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  font-family: HiraKakuPro-W3;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 176px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+/*===================
+        global
+===================*/
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  color: #fff;
+}
+
+/*===================
+        local
+===================*/
+
+.header .headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1160px;
+  height: 74px;
+  margin: 0 auto;
+}
+
+.header .logoWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 100px;
+  height: 40px;
+}
+
+.header .phrase {
+  margin-left: 12px;
+  font-weight: 6 00;
+}
+
+.header .button {
+  width: 320px;
+  height: 45px;
+  background-color: #da6b64;
+}
+
+.firstView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.firstView .catchCopy {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.firstView .logo {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.firstView .phrase {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
